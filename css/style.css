@@ -13,3 +13,16 @@ body {
     margin-top: 1em;
 }
 
+.banner-container {
+    position: relative; 
+}
+
+.banner {
+    display: block; /*Fjerner det lille mellemrum under billedet*/
+    width: 100%; /*Gør billedet bredt*/
+}
+
+/*Løfter teksten ud af dens normale plads, så den kan ligger oven på billedet*/
+.overskrift-1 {
+    position: absolute; 
+}
