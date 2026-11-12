@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="280" height="94" viewBox="0 0 280 94" role="img" aria-labelledby="title">
   <title id="title">undgå madspild – En grønnere hverdag</title>
-  <g transform="translate(62 1) scale(.42)" fill="none" stroke="#245640" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(62 1) scale(.42)" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
     <g transform="translate(0 0)">
       <path d="M8 72c34 9 67-8 77-48l2-13 11 2 1 13C96 78 52 107 12 86l-7-5Z"/>
       <path d="M14 80c33 12 71-12 78-50"/>
@@ -20,6 +20,6 @@
       <path d="M-13 11h24q6 0 7 6v13q0 6-6 6h-25q-6 0-6-6V17q0-6 6-6Z"/>
     </g>
   </g>
-  <text x="140" y="67" text-anchor="middle" fill="#245640" font-family="Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="-.65">undgå madspild</text>
-  <text x="140" y="86" text-anchor="middle" fill="#406832" font-family="Arial, sans-serif" font-size="13" letter-spacing=".4">En grønnere hverdag</text>
+  <text x="140" y="67" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="-.65">undgå madspild</text>
+  <text x="140" y="86" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" letter-spacing=".4">En grønnere hverdag</text>
 </svg>

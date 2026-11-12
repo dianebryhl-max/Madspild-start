@@ -5,12 +5,37 @@
 }
 
 body {
-    background-color: #d0d6ca
+     background-color: #d0d6ca
 }
 
 .logo {
     width: 20em;
-    margin-top: 1em;
+    margin-top: 1.2em;
+    margin-bottom: -1em;
+}
+
+nav {
+	padding: 6em;
+	margin-top: -10em;
+    background-color: #204534;
+}
+
+nav li {
+	display: inline-block;
+	padding: 2em;
+}
+
+li a {
+	color: white;
+}
+
+nav ul {
+    float: right;
+    font-size: 15px;
+}
+
+li a:hover {
+	color: black;
 }
 
 .banner-container {
@@ -20,9 +45,65 @@ body {
 .banner {
     display: block; /*Fjerner det lille mellemrum under billedet*/
     width: 100%; /*Gør billedet bredt*/
+    padding-top: 4rem;
 }
 
-/*Løfter teksten ud af dens normale plads, så den kan ligger oven på billedet*/
 .overskrift-1 {
-    position: absolute; 
+    position: absolute; /*Løfter teksten ud af dens normale plads, så den kan ligger oven på billedet*/
+    top: 2em;
+    width: 100%; /*Gør tekstfeltet ligeså bredt som billedet og dermed kan jeg sætte text-align i center*/
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.første-tekst {
+    text-align: left;
+    padding: 3em;
+    font-size: 40px;
+}
+
+.box-1 {
+    width: 250px;
+    margin-left: 120px;
+}
+
+.forside-1 {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.box-1 p {
+    background-color: #99D2D2;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.box-2 {
+    width: 250px;
+    margin-left: 120px;
+}
+
+.forside-2 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box-2 p {
+    background-color: #99D2D2;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+     min-height: 180px;
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
