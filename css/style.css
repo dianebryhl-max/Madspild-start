@@ -35,7 +35,8 @@ nav ul {
 }
 
 li a:hover {
-	color: black;
+	color: #000;
+    background-color: #d0d6ca;
 }
 
 .banner-container {
@@ -92,18 +93,61 @@ li a:hover {
     margin-right: 6em;
 }
 
+.billede-box {
+    display: flex;
+    align-items: center;
+    margin: 60px 40px;
+}
+
 .forside-4 {
     width: 100;
     height: auto;
-    margin-right: -30em
-        position: relative;
-    padding: 4em;
+    margin-left: -25%;
 }
 
 .grøn-box {
-    width: 60%;
+    box-sizing: border-box;
+    width: 62%;
     padding: 70px 30px 70px 28px;
     background-color: #a7d59f;
-    margin-left: 30%;
+}
 
+.footer {
+    display: flex;
+    align-items: stretch;
+    background-color: #204534;
+    color: white;
+    padding: 40px 0px;
+}
+
+.kontakt, .sociale-medier {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.kontakt {
+    padding-left: 100px;
+}
+
+.sociale-medier {
+    border-left: 2px solid white;
+    text-align: center;
+}
+
+.footer h3 {
+     font-size: 20px;
+     margin: 0 0 20px;
+}
+
+.footer p {
+	font-size: 17px;
+	line-height: 1.6;
+	margin: 0;
+}
+
+.some-logoer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 40px;
 }
