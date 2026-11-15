@@ -73,24 +73,55 @@ form button {
 	margin-top: 1em;
 }
 
-.billede-box {
-    display: flex;
-    align-items: center;
+
+
+
+
+
+
+.tekst-og-billede {
     margin: 60px 40px;
 }
 
 .kontakt-os {
-    width: 100;
+    width: 70%;
     height: auto;
-    margin-left: -25%;
+    margin-left: -50%;
+    flex-shrink: 0;
 }
 
 .grøn-box {
     box-sizing: border-box;
-    width: 62%;
-    padding: 70px 30px 70px 28px;
+    width: 50%;
+    padding: 70px 60px 60px 28px;
     background-color: #a7d59f;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 230px;
 }
+
+.overskrift-2 {
+    font-size: 30px;
+    padding-bottom: 1.5em;
+    padding-left: 2.5em;
+}
+
+.anden-tekst {
+    font-size: 20px;
+    padding-bottom: 1em;
+    padding-left: 4em;
+}
+
+.tredje-tekst {
+    font-size: 20px;
+    padding-left: 4em;
+}
+
+
+
+
 
 
 
