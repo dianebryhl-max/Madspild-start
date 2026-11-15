@@ -31,7 +31,7 @@ li a {
 
 nav ul {
     float: right;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -150,4 +150,10 @@ li a:hover {
     justify-content: center;
     gap: 15px;
     font-size: 40px;
+}
+
+
+/*Mobil version*/
+@media screen and (max-width: 768px) {
+    
 }

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+     background-color: #d0d6ca
+}
+
+.logo {
+    width: 20em;
+    margin-top: 1.2em;
+    margin-bottom: -1em;
+}
+
+nav {
+	padding: 6em;
+	margin-top: -10em;
+    background-color: #204534;
+}
+
+nav li {
+	display: inline-block;
+	padding: 2em;
+}
+
+li a {
+	color: white;
+}
+
+nav ul {
+    float: right;
+    font-size: 15px;
+}
+
+li a:hover {
+	color: #000;
+    background-color: #d0d6ca;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    align-items: stretch;
+    background-color: #204534;
+    color: white;
+    padding: 40px 0px;
+}
+
+.kontakt, .sociale-medier {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.kontakt {
+    padding-left: 100px;
+}
+
+.sociale-medier {
+    border-left: 2px solid white;
+    text-align: center;
+}
+
+.footer h3 {
+     font-size: 20px;
+     margin: 0 0 20px;
+}
+
+.footer p {
+	font-size: 17px;
+	line-height: 1.6;
+	margin: 0;
+}
+
+.some-logoer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 40px;
+}
+
+
+/*Mobil version*/
+@media screen and (max-width: 768px) {
+    
+}
