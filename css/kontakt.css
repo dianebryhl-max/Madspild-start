@@ -31,7 +31,7 @@ li a {
 
 nav ul {
     float: right;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -39,11 +39,27 @@ li a:hover {
     background-color: #d0d6ca;
 }
 
+.overskrift1 {
+    font-size: 50px;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.tekst {
+    font-size: 30px;
+     padding-top: 0.5em;
+     text-align: center;
+     margin-bottom: 2em;
+}
+
 .blå-boks {
 	box-sizing: border-box;
     width: 62%;
     padding: 70px 30px 70px 28px;
     background-color: #a6d0d1;
+    border: 1px solid #000;
+    margin-right: auto;
+    margin-left: auto
 }
 
 input[type=text], input[type=email], input[type=tel], select, textarea {
@@ -62,6 +78,15 @@ select {
 	cursor: pointer;
 }
 
+.blå-boks input,
+.blå-boks textarea,
+.blå-boks button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+}
+
 form button {
 	background-color: #204534;
 	color: white;
@@ -71,13 +96,8 @@ form button {
 	width: 70%;
 	font-size: 18px;
 	margin-top: 1em;
+    border: 1px solid #000;
 }
-
-
-
-
-
-
 
 .tekst-og-billede {
     margin: 60px 40px;
@@ -97,9 +117,11 @@ form button {
     background-color: #a7d59f;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 2em;
     margin-left: auto;
     margin-right: 230px;
+    border: 1px solid #000;
+    margin-top: 3em;
 }
 
 .overskrift-2 {
@@ -118,14 +140,6 @@ form button {
     font-size: 20px;
     padding-left: 4em;
 }
-
-
-
-
-
-
-
-
 
 .footer {
     display: flex;

@@ -32,7 +32,7 @@ li a {
 
 nav ul {
     float: right;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -40,40 +40,84 @@ li a:hover {
     background-color: #d0d6ca;
 }
 
+
+
+
+
+
+
+
+
+
 .madspild-side {
     padding: 40px 20px;
-}
-
-.madspild-side h2 {
-    text-align: center;
-    margin: 0 0 50px;
-}
-
-.første-tekst-og-billede {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flow-root;
-}
-
-.første-tekst-og-billede p {
     line-height: 1.5;
     margin: 0 0 20px;
 }
 
-.første-tekst-og-billede h3 {
-    margin: 0 0 20px;
+.madspild-side section {
+    width: 85%;
+    margin: 0 auto;
+    display: flow-root;
 }
 
-.første-tekst-og-billede, .billede1 {
+.madspild-side h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3em;
+    margin-bottom: 1.5em
+
+}
+
+.første-tekst {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.madspild-side h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.madspild-side p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.madspild-side .anden-tekst, h3 {
+    margin-top: 60px;
+}
+
+.madspild-side .fjerde-tekst {
+    clear: both;
+}
+
+
+.billede1 {
     float: right;
-    width: 38%;
+    width: 20%;
     height: auto;
     margin: 0 0 24px 30px;
 }
 
-.første-tekst-og-billede, sidste-tekst {
-    clear: both;
+
+
+
+.koteletter {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin: 0 0 24px 30px;
 }
+
+.tærte {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin: 0 0 24px 30px;
+}
+
+
 
 
 
