@@ -311,4 +311,37 @@ display: none;
         overflow-wrap: break-word;
     }
 
+
+
+
+       
+    .footer {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+}
+
+.footer .kontakt,
+.footer .sociale-medier {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.footer .sociale-medier {
+    border-left: none;
+    border-top: 2px solid white;
+    padding-top: 25px;
+}
+
+.footer p {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+}
+
+.some-logoer {
+    font-size: 35px;
+    gap: 20px;
+    }
+
 }
