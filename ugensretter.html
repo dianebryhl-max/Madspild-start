@@ -6,21 +6,45 @@
     <title>undgå madspild</title>
     <link rel="stylesheet" href="css/ugensretter.css">
 
+   <!--link til js fil og brug af defer så filen loader efter HTML-->
+    <script src="js/script.js" defer></script> 
+
+
         <!--link til fontawsome-->
     <script src="https://kit.fontawesome.com/7ff2228b42.js" crossorigin="anonymous"></script> 
 
 </head>
 <body>
 
+       <!--Skip til main-->
+    <a class="screen-reader-text" href="#hovedindhold">hop til hovedindhold</a>
+
+
         <!--Header-->
     
     <header>
+
+         <nav>
+        <button
+          id="bars"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="open navigation"
+        >
+          <!-- aria-expanden fortæller skærmoplæseren at menuen er lukket-->
+          <!--aria-label giver skærmlæseren en besked om hvad knappen gør-->
+          <!--button gør menuen trykbar så den kan åbnes via tastatur-->
+          <!--aria-controls fortæller skærmoplæseren at menuen er styret af knappen-->
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        </nav>
+
         <a href="index.html">
             <!--Logo billede genereret af AI-->
         <img class="logo" src="img/logo.svg" alt="logo Undgå Madspild, En grønnere hverdag"></a>
 
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="undgåmadspild.html">Undgå madspild</a></li>
                 <li><a href="ugensretter.html">Ugens retter</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>

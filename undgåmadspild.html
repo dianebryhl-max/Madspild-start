@@ -6,21 +6,45 @@
     <title>undgå madspild</title>
     <link rel="stylesheet" href="css/undgåmadspild.css">
 
+   <!--link til js fil og brug af defer så filen loader efter HTML-->
+    <script src="js/script.js" defer></script> 
+
+
         <!--link til fontawsome-->
     <script src="https://kit.fontawesome.com/7ff2228b42.js" crossorigin="anonymous"></script> 
 
 </head>
 <body>
 
+       <!--Skip til main-->
+    <a class="screen-reader-text" href="#hovedindhold">hop til hovedindhold</a>
+
+
         <!--Header-->
     
     <header>
+
+         <nav>
+        <button
+          id="bars"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="open navigation"
+        >
+          <!-- aria-expanden fortæller skærmoplæseren at menuen er lukket-->
+          <!--aria-label giver skærmlæseren en besked om hvad knappen gør-->
+          <!--button gør menuen trykbar så den kan åbnes via tastatur-->
+          <!--aria-controls fortæller skærmoplæseren at menuen er styret af knappen-->
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        </nav>
+
         <a href="index.html">
             <!--Logo billede genereret af AI-->
         <img class="logo" src="img/logo.svg" alt="logo Undgå Madspild, En grønnere hverdag"></a>
 
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="undgåmadspild.html">Undgå madspild</a></li>
                 <li><a href="ugensretter.html">Ugens retter</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
@@ -30,7 +54,7 @@
     </header>
 
 
-       <main>
+       <main id="hovedindhold">
 
         <div class="madspild-side">
 
@@ -38,10 +62,11 @@
 
         <section>
 
+             <img class="billede1" src="img/Undgå madspild siden.png" alt="Frugt og grøntsager i poser">
+
             <h3>Derfor skal du vælge det...</h3>
 
-            <img class="billede1" src="img/Undgå madspild siden.png" alt="Frugt og grøntsager i poser">
-
+           
             <p class="første-tekst">På denne side vil vi komme med nogle tips til, hvordan du kan undgå madspild i din hverdag. <br>
             Der skal stå noget mere, men det kan jeg ikke komme på lige nu og her. Nu skal jeg lidt videre med noget andet, så vender jeg tilbage hertil senere.</p>
 
@@ -84,7 +109,7 @@
             </div>
 
 
-        <a class="læsmere" href="ugensretter.html"> Læs mere om ugens retter her</a>
+        <a class="læsmere" href="ugensretter.html" aria-label="Læs mere om ugens retter her">Læs mere om ugens retter her</a>
 
 
         </div> 
