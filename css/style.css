@@ -38,6 +38,7 @@ nav {
 	padding: 6em;
 	margin-top: -10em;
     background-color: #204534;
+
 }
 
 nav li {
@@ -259,7 +260,7 @@ nav #bars{
     .overskrift-1 {
         top: 15px;
         font-size: 26px;
-        padding: 2em 15px;
+        padding: 1em 15px;
         box-sizing: border-box;
     }
 
