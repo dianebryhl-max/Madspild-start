@@ -36,8 +36,7 @@ nav {
 	padding: 6em;
 	margin-top: -10em;
     background-color: #204534;
-     justify-content: space-between;
-     align-items: center;
+
 }
 
 nav li {
@@ -52,20 +51,12 @@ li a {
 nav ul {
     float: right;
     font-size: 20px;
-     justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    display: flex;
 }
 
 li a:hover {
 	color: #000;
     background-color: #d0d6ca;
 }
-
-
-
-
 
 
 
@@ -211,73 +202,47 @@ form button {
     font-size: 40px;
 }
 
-/*Fjerne hamburgermenu ikon fra desctopversion*/
-nav #bars{
-display: none;
-}
-
-
-
-
 
 
 /*Mobil version*/
 @media screen and (max-width: 768px) {
     
-    .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    position: relative;
-    margin-top: 0;
-    padding: 16px;
-    }
+   header {
+  background-color: #204534;
+  display: flow-root;
+}
 
-    nav > a {
-        min-width: 0;
-    }
-    
-    nav .logo {
-    display: block;
-    width: 20em;
+.logo {
+    width: 180px;
     max-width: 100%;
     height: auto;
-    margin: 0;
-    }
+    margin: 15px 0;
+  }
 
-
-    nav #bars {
-    display: flex;
-    background-color: #D0D6CA;
-    color: #99D2D2;
-    font-size: 2.3em;
-    border: none;
-    cursor: pointer;
-    flex-shrink: 0;
+  nav {
+    padding: 20px;
+    margin-top: 0;
   }
 
   nav ul {
-    display: none;
-    height: auto;
-    border-top: 4px solid lightskyblue;
-    flex-direction: column;
+    float: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
   }
 
   nav li {
-    display: flex;
+    display: block;
+    padding: 0;
   }
 
-  nav .show {
-    display: flex;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    padding: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 1;
+  nav li a {
+    display: block;
+    padding: 15px;
+    text-align: center;
   }
+
 
 
 

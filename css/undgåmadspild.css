@@ -219,43 +219,44 @@ a:hover {
     font-size: 40px;
 }
 
-/*Fjerne hamburgermenu ikon fra desctopversion*/
-nav #bars{
-  display: none;
-}
 
 /*Mobil version*/
 @media screen and (max-width: 768px) {
     
-    nav #bars {
-    display: flex;
-    background-color: #D0D6CA;
-    color: #99D2D2;
-    font-size: 2.3em;
-    border: none;
-    cursor: pointer;
+   header {
+background-color: #204534;
+  display: flow-root;
+}
+
+.logo {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  nav {
+    padding: 20px;
+    margin-top: 0;
   }
 
   nav ul {
-    display: none;
-    height: auto;
-    border-top: 4px solid lightskyblue;
-    flex-direction: column;
+    float: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
   }
 
   nav li {
-    display: flex;
+    display: block;
+    padding: 0;
   }
 
-  nav .show {
-    display: flex;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    padding: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 1;
+  nav li a {
+    display: block;
+    padding: 15px;
+    text-align: center;
   }
 
 
