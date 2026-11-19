@@ -36,6 +36,8 @@ nav {
 	padding: 6em;
 	margin-top: -10em;
     background-color: #204534;
+     justify-content: space-between;
+     align-items: center;
 }
 
 nav li {
@@ -50,12 +52,22 @@ li a {
 nav ul {
     float: right;
     font-size: 20px;
+     justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
 }
 
 li a:hover {
 	color: #000;
     background-color: #d0d6ca;
 }
+
+
+
+
+
+
 
 .overskrift1 {
     font-size: 50px;
@@ -212,6 +224,29 @@ display: none;
 /*Mobil version*/
 @media screen and (max-width: 768px) {
     
+    .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;
+    margin-top: 0;
+    padding: 16px;
+    }
+
+    nav > a {
+        min-width: 0;
+    }
+    
+    nav .logo {
+    display: block;
+    width: 20em;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    }
+
+
     nav #bars {
     display: flex;
     background-color: #D0D6CA;
@@ -219,6 +254,7 @@ display: none;
     font-size: 2.3em;
     border: none;
     cursor: pointer;
+    flex-shrink: 0;
   }
 
   nav ul {

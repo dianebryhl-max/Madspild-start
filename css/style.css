@@ -204,7 +204,7 @@ li a:hover {
 
 
 
-/*Fjerne hamburgermenu ikon fra desctopversion*/
+/*Fjerne burgermenu ikon fra desctopversion*/
 nav #bars{
   display: none;
 }
